@@ -1,4 +1,8 @@
-const BASE_URL = process.env.REACT_APP_BASE_URL;
+let BASE_URL = "http://localhost:4000/api/v1";
+console.log("env client", process.env.NODE_ENV);
+if (process.env.NODE_ENV === "production"){
+  BASE_URL = process.env.REACT_APP_BASE_URL;
+}
 
 // AUTH ENDPOINTS
 export const endpoints = {
