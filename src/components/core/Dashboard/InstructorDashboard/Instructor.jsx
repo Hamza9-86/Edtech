@@ -92,7 +92,7 @@ export default function Instructor() {
             <div className="flex items-center justify-between">
               <p className="text-lg font-bold text-richblack-5">Your Courses</p>
               <Link to="/dashboard/my-courses">
-                <p className="text-xs font-semibold text-yellow-50">View All</p>
+                <p className="text-xs font-semibold text-lightblue-300">View All</p>
               </Link>
             </div>
             <div className="my-4 flex items-start space-x-6">
@@ -130,7 +130,7 @@ export default function Instructor() {
             You have not created any courses yet
           </p>
           <Link to="/dashboard/add-course">
-            <p className="mt-1 text-center text-lg font-semibold text-yellow-50">
+            <p className="mt-1 text-center text-lg font-semibold text-lightblue-300">
               Create a course
             </p>
           </Link>

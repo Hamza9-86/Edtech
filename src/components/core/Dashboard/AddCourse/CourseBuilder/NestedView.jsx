@@ -145,7 +145,7 @@ export default function NestedView({ handleChangeEditSectionName }) {
               {/* Add New Lecture to Section */}
               <button
                 onClick={() => setAddSubsection(section._id)}
-                className="mt-3 flex items-center gap-x-1 text-yellow-50"
+                className="mt-3 flex items-center gap-x-1 text-lightblue-300"
               >
                 <FaPlus className="text-lg" />
                 <p>Add Lecture</p>

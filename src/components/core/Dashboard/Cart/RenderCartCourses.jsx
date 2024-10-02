@@ -31,7 +31,7 @@ export default function RenderCartCourses() {
                 {course?.category?.name}
               </p>
               <div className="flex items-center gap-2">
-                <span className="text-yellow-5">4.5</span>
+                <span className="text-lightblue-300">4.5</span>
                 <ReactStars
                   count={5}
                   value={course?.ratingAndReviews?.length}
@@ -55,7 +55,7 @@ export default function RenderCartCourses() {
               <RiDeleteBin6Line />
               <span>Remove</span>
             </button>
-            <p className="mb-6 text-3xl font-medium text-yellow-100">
+            <p className="mb-6 text-3xl font-medium text-lightblue-500">
               ₹ {course?.price}
             </p>
           </div>

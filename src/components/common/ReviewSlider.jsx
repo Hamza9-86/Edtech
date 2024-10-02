@@ -75,14 +75,14 @@ const ReviewSlider = () => {
                   <p className="text-richblack-25">{review?.course?.courseName}</p>
                   <p>{review?.review}</p>
                 </div>
-                <div className="flex items-center gap-2 text-yellow-50">
+                <div className="flex items-center gap-2 text-lightblue-500">
                   <p>{review?.rating.toFixed(1)}</p>
                   <ReactStars
                     count={5}
                     value={review.rating}
                     size={20}
                     edit={false}
-                    activeColor="#ffd700"
+                    activeColor="#33A5FB"
                     emptyIcon={<FaStar />}
                     fullIcon={<FaStar />}
                   />

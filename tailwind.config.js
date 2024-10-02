@@ -95,6 +95,34 @@ module.exports = {
         800: "#4F0A25",
         900: "#340019",
       },
+      red: {
+        5: "#FFEAEA",
+        25: "#FFC7C7",
+        50: "#FFA3A3",
+        100: "#FF7F7F",
+        200: "#FF5A5A",
+        300: "#FF3636",
+        400: "#FF1212",
+        500: "#E60000",
+        600: "#B80000",
+        700: "#8A0000",
+        800: "#5C0000",
+        900: "#2E0000",
+      },
+      lightblue: {
+        5: "#E3F8FF",  // Very light blue
+        25: "#B3ECFF", // Pale blue
+        50: "#81DEFD", // Light sky blue
+        100: "#5ED0FA", // Sky blue
+        200: "#40C3F7", // Lighter blue
+        300: "#2BB0ED", // Moderate light blue
+        400: "#1992D4", // Bright light blue
+        500: "#127FBF", // Normal light blue
+        600: "#0B69A3", // Slightly darker blue
+        700: "#035388", // Darker blue
+        800: "#013D66", // Deep blue
+        900: "#002244", // Very deep blue
+      },            
       yellow: {
         5: "#FFF970",
         25: "#FFE83D",

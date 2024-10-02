@@ -61,7 +61,7 @@ function Navbar() {
                     <div
                       className={`group relative flex cursor-pointer items-center gap-1 ${
                         matchRoute("/catalog/:catalogName")
-                          ? "text-yellow-25"
+                          ? "text-lightblue-300"
                           : "text-richblack-25"
                       }`}
                     >
@@ -101,7 +101,7 @@ function Navbar() {
                     <p
                       className={`${
                         matchRoute(link?.path)
-                          ? "text-yellow-25"
+                          ? "text-lightblue-300"
                           : "text-richblack-25"
                       }`}
                     >
@@ -119,7 +119,7 @@ function Navbar() {
             <Link to="/dashboard/cart" className="relative">
               <AiOutlineShoppingCart className="text-2xl text-richblack-100" />
               {totalItems > 0 && (
-                <span className="absolute -bottom-2 -right-2 grid h-5 w-5 place-items-center overflow-hidden rounded-full bg-richblack-600 text-center text-xs font-bold text-yellow-100">
+                <span className="absolute -bottom-2 -right-2 grid h-5 w-5 place-items-center overflow-hidden rounded-full bg-richblack-600 text-center text-xs font-bold text-lightblue-300">
                   {totalItems}
                 </span>
               )}

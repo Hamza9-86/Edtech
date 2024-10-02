@@ -52,7 +52,7 @@ const RequirementField = ({
         <button
           type="button"
           onClick={handleAddRequirement}
-          className="font-semibold text-yellow-50"
+          className="font-semibold text-lightblue-300"
         >
           Add
         </button>

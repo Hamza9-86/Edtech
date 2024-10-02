@@ -95,7 +95,7 @@ const ContactUsForm = () => {
             <select
               name="dropdown"
               id="dropdown"
-              className="bg-yellow-50 w-[80px]"
+              className="bg-lightblue-300 w-[80px]"
               {...register("countrycode", { required: true })}
             >
               {CountryCode.map((element, index) => {
@@ -140,7 +140,7 @@ const ContactUsForm = () => {
 
         <button
           type="submit"
-          className="rounded-md bg-yellow-50 text-center px-6 text-[16px] font-bold text-black"
+          className="rounded-md bg-lightblue-300 text-center px-6 text-[16px] font-bold text-black"
         >
           Send Message
         </button>

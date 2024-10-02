@@ -89,7 +89,7 @@ const Home = () => {
               active: false,
             }}
             codeblock={`<<!DOCTYPE html>\n<html>\nhead><title>Example</title><linkrel="stylesheet"href="styles.css">\n/head>\n`}
-            codeColor={"text-yellow-25"}
+            codeColor={"text-lightblue-300"}
           />
         </div>
 
@@ -118,7 +118,7 @@ const Home = () => {
               active: false,
             }}
             codeblock={`<<!DOCTYPE html>\n<html>\nhead><title>Example</title><linkrel="stylesheet"href="styles.css">\n/head>\n`}
-            codeColor={"text-yellow-25"}
+            codeColor={"text-lightblue-300"}
           />
         </div>
 
